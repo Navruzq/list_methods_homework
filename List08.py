@@ -6,4 +6,14 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    n=0
+    n=fruits.count('apple')
+    i=0
+    a=0
+    while i<n:
+        a=fruits.index('apple')
+        fruits.pop(a)
+        i+=1
+
+    return fruits
+print(main(['apple','banana','apple','pear','apple']))
