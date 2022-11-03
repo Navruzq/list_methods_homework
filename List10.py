@@ -6,4 +6,15 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    i=0
+    a=0
+    b=0
+    s=[]
+    while i<len(list1):
+       a=list1.count(1)
+       b=list1.count(0)
+       i+=1
+    s.insert(0,a)
+    s.insert(1,b)
+    return s
+print(main([1,0,0,0,1,0,1,0]))
